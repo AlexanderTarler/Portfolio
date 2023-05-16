@@ -1,0 +1,21 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 130%;
+    text-shadow: -3px 2px 0px rgb(75, 4, 118);
+    color: #e9e6f1;
+}
+
+.project_type {
+    text-decoration: underline;
+}
+
+
+
+.project_item {
+    font-weight: bold;
+    margin-block: 30px;
+    text-decoration: none;
+}
