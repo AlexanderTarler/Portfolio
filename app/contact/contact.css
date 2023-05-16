@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgb(188, 188, 188);
 }
 
 .contact_info {
@@ -10,15 +11,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-shadow: -3px 2px 0px rgb(75, 4, 118);
     color: #e9e6f1;
     margin-top: 20px;
     display: flex;
+    background-color: rgb(188, 188, 188);
+
 }
 
 .contact_option {
-    color: gold;
+    color: black;
     margin-top: 50px;
+    background-color: rgb(188, 188, 188);
+}
+
+a {
+    background-color: rgb(188, 188, 188);
 }
 
 @media only screen and (max-width: 600px) {

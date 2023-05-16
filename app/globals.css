@@ -4,166 +4,34 @@
     outline: none;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
-    background-color: #001f3f;
+    background-color: rgb(188, 188, 188);
+    color: rgb(0, 0, 0);
 }
 
 #global {
     width: 100%;
 }
 
-.scenery {
-    display: flex;
-    flex-direction: row;
-}
-
-.scenery_button {
-    position: relative;
-    background: transparent;
-    color: gold;
-    border: none;
-    margin-left: 10px;
-    z-index: 200;
-    cursor: pointer;
-}
-
-.underlined {
-    color: rgb(255, 255, 255);
-}
-
-.clock {
-    position: relative;
-    bottom: 5px;
-    color: rgb(255, 255, 255);
-    font-size: 150%;
-    text-shadow: -3px 2px 0px rgb(51, 51, 155);
-    cursor: default;
-
-}
-
-#dawn {
-    display: block;
-    box-sizing: border-box;
-    transform: scale(var(--ggs, 1));
-    width: 20px;
-    height: 20px;
-    overflow: hidden;
-    border-radius: 100px
-}
-
-#dawn::after,
-#dawn::before {
-    content: "";
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    transform: rotate(-90deg);
-    background: currentColor;
-    top: -14px;
-}
-
-#dawn::after {
-    width: 2px;
-    box-shadow:
-        -3px 4px 0 0,
-        -6px -2px 0 0;
-    top: -1px;
-    left: 6px
-}
-
-#day {
-    box-sizing: border-box;
-    position: relative;
-    display: block;
-    margin-top: -2px;
-    transform: scale(var(--ggs, 1));
-    width: 24px;
-    height: 24px;
-    background:
-        linear-gradient(to bottom,
-            currentColor 4px, transparent 0) no-repeat 5px -6px/2px 6px,
-        linear-gradient(to bottom,
-            currentColor 4px, transparent 0) no-repeat 5px 14px/2px 6px,
-        linear-gradient(to bottom,
-            currentColor 4px, transparent 0) no-repeat -8px 5px/6px 2px,
-        linear-gradient(to bottom,
-            currentColor 4px, transparent 0) no-repeat 14px 5px/6px 2px;
-    border-radius: 100px;
-    box-shadow: inset 0 0 0 2px;
-    border: 6px solid transparent
-}
-
-#day::after,
-#day::before {
-    content: "";
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    width: 24px;
-    height: 2px;
-    border-right: 4px solid;
-    border-left: 4px solid;
-    left: -6px;
-    top: 5px
-}
-
-#day::before {
-    transform: rotate(-45deg)
-}
-
-#day::after {
-    transform: rotate(45deg)
-}
-
-#dusk_button {
-    font-size: 200%;
-    margin-top: -14px;
-}
-
-#night,
-#night::after {
-    display: block;
-    box-sizing: border-box;
-    border-radius: 50%
-}
-
-#night {
-    overflow: hidden;
-    position: relative;
-    transform: rotate(-135deg) scale(var(--ggs, 1));
-    width: 20px;
-    height: 20px;
-    border: 2px solid;
-    border-bottom-color: transparent
-}
-
-#night::after {
-    content: "";
-    position: absolute;
-    width: 12px;
-    height: 18px;
-    border: px solid transparent;
-    box-shadow: 0 0 0 2px;
-    top: 8px;
-    left: 2px;
-}
-
 #welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 80px;
     margin-left: 20px;
-    font-size: 10%;
-    color: rgb(255, 255, 255);
-    text-shadow: -2px 2px 2px gold;
     z-index: 2;
 }
 
 @media only screen and (min-width: 600px) {
     #welcome {
-        margin-top: 80px;
-        font-size: xx-large;
-        color: rgb(255, 255, 255);
-        text-shadow: -2px 2px 2px gold;
+        flex-direction: column;
+        margin-top: 200px;
+        font-size: 450%;
+        font-weight: bolder;
         z-index: 2;
+    }
+
+    h6 {
+        font-size: 30%;
+        margin-top: 20px;
     }
 }

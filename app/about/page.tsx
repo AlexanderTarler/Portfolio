@@ -3,6 +3,7 @@ import '../globals.css';
 import './about.css';
 import { useGlobalContext } from '../Context/store';
 import { useEffect, useRef, useState } from 'react';
+import Link from 'next/link';
 
 
 
@@ -68,22 +69,14 @@ export default function Home() {
     return (
         <>
             <main className='about'>
-                <div className='fakeMenu'>
-                    <div className="fakeButtons fakeClose"></div>
-                    <div className="fakeButtons fakeMinimize"></div>
-                    <div className="fakeButtons fakeZoom"></div>
-                </div>
-                <div className="fakeScreen">
-                    <p className="line1">Hi there!<span className="cursor1">_</span></p>
-                    <p className="line2">I&apos;m Alex, a fullstack developer with a passion for coding.<span className="cursor2">_</span></p>
-                    <p className="line3">Enter 	&quot;keywords&quot; below to find out what else you can type!<span className="cursor3">_</span></p>
-                    <div className={visible ? 'invisible' : 'visible'}>
-                        Skills
-                        Hobbies
-                        {/* Contact Info */}
-                    </div>
-                    <input ref={queryRef} id='terminal_input' type="text" onChange={handleChange} onKeyDown={handleKeyDown} />
-                    <div className="terminal_answer">{answer}</div>
+                <div id="about-text-box">
+                    <h2>I'm Alex, a fullstack developer with a passion for building innovative web applications with a great user experiences.</h2>
+                    <h2>I have developed websites, applications and games, and I'm excited to see what my next project will be.</h2>
+                    <h2>I have a lot of experience using React, Next.js, MongoDb and Node.js as well as other tech stacks.</h2>
+                    <h2>I am constantly looking to learn and grow as a developer.</h2>
+                    <Link href={"/portfolio"}>
+                        <h5>Check out my portfolio to see a few of my projects!</h5>
+                    </Link>
                 </div>
             </main>
         </>
