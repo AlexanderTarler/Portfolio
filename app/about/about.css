@@ -1,20 +1,15 @@
 .about {
     display: flex;
-    height: 320px;
+    height: 32vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 50px;
-    color: gold;
+    margin-left: 12vw;
 }
 
 h2 {
     margin-bottom: 20px;
-}
-
-#about-text-box {
-    border: 2px solid gold;
-
 }
 
 @media only screen and (min-width: 600px) {
@@ -26,7 +21,6 @@ h2 {
         font-size: large;
         flex-direction: column;
         margin-top: 100px;
-        color: gold;
     }
 
     #about-text-box {

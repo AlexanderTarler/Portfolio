@@ -14,11 +14,25 @@
 
 #welcome {
     display: flex;
+    width: 100vw;
+    height: 20vh;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
     margin-top: 80px;
     margin-left: 20px;
     z-index: 2;
+}
+
+#title {
+    margin-top: 20vh;
+    font-size: 120%;
+}
+
+h6 {
+    margin-top: 10vh;
+    width: 10wv;
 }
 
 @media only screen and (min-width: 600px) {

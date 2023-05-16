@@ -2,8 +2,8 @@
 
 .logo {
     color: black;
-    font-size: 100%;
-    margin-left: 50px;
+    font-size: 150%;
+    margin-left: 13vw;
     background-color: whitesmoke;
 }
 
@@ -16,15 +16,20 @@
     font-size: xx-large;
 }
 
+div {
+    height: 3vh;
+}
+
 a {
     text-decoration: none;
-    font-size: 200%;
+    font-size: 180%;
     background-color: transparent;
     color: black;
 }
 
 .nav-item {
-    background-color: whitesmoke;
+    margin-inline: 10px;
+    background-color: transparent;
 }
 
 header {
@@ -35,7 +40,9 @@ header {
 
 nav {
     display: flex;
+    height: 10vh;
     padding: 10px;
+    width: 110vw;
     margin-bottom: 10px;
     justify-content: space-between;
     align-items: center;
@@ -43,46 +50,28 @@ nav {
     z-index: 300;
 }
 
-.nav__menu-bar {
-    display: flex;
-    margin-right: 20px;
-    height: 20px;
-    flex-direction: column;
-    row-gap: 6px;
-    cursor: pointer;
-}
-
-.nav__menu-bar div {
-    width: 30px;
-    height: 5px;
-    border-radius: 2px;
-}
-
 .nav__menu-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22vw;
     position: fixed;
-    top: 40px;
-    width: 90px;
-    row-gap: 12px;
-    margin-top: 15px;
-    right: -100px;
-    padding: 24px 16px;
-    transition: all 0.2s;
+    top: 12vh;
+    width: 60vw;
+
+
     font-size: 75%;
     font-weight: bold;
-    min-height: calc(100vh - 60px);
-    background-color: whitesmoke;
-}
-
-.nav__menu-list.active {
-    right: 0;
+    height: 3vh;
+    background-color: transparent;
 }
 
 .nav__link {
     font-size: 18px;
     position: relative;
     transition: all 0.2s;
+    margin-inline: 20px;
 }
 
 .nav__link:hover {
