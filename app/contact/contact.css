@@ -27,7 +27,19 @@
 
 @media only screen and (max-width: 600px) {
     .contact {
-        /* width: 300px; */
         font-size: 70%;
+        margin-left: 0vw;
+    }
+
+    .contact_info {
+        font-size: 150%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #e9e6f1;
+        margin-top: 0px;
+        display: flex;
+        background-color: rgb(188, 188, 188);
+
     }
 }

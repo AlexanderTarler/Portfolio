@@ -21,3 +21,16 @@
     text-decoration: none;
     background-color: rgb(188, 188, 188);
 }
+
+@media only screen and (min-width: 600px) {
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15vh;
+        text-align: center;
+        font-size: 100%;
+        margin-left: 0vw;
+    }
+}

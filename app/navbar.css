@@ -7,19 +7,6 @@
     background-color: whitesmoke;
 }
 
-.project {
-    color: #e1ddea;
-}
-
-.project:hover {
-    color: #f1f1f1;
-    font-size: xx-large;
-}
-
-div {
-    height: 3vh;
-}
-
 a {
     text-decoration: none;
     font-size: 180%;
@@ -30,6 +17,8 @@ a {
 .nav-item {
     margin-inline: 10px;
     background-color: transparent;
+    height: 3vh;
+
 }
 
 header {
@@ -88,10 +77,19 @@ nav {
 @media screen and (min-width: 768px) {
 
     .logo {
+        position: relative;
         color: black;
         font-size: 150%;
         margin-left: 0vw;
         background-color: whitesmoke;
+    }
+
+    a {
+        position: relative;
+        text-decoration: none;
+        font-size: 180%;
+        background-color: transparent;
+        color: black;
     }
 
     nav {
@@ -100,6 +98,15 @@ nav {
 
     .nav__menu-bar {
         display: none;
+    }
+
+    .nav__item {
+        margin-inline: 10px;
+        background-color: whitesmoke;
+    }
+
+    div {
+        background-color: whitesmoke;
     }
 
     .nav__menu-list {
