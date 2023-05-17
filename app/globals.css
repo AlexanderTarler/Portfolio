@@ -36,16 +36,31 @@ h6 {
 }
 
 @media only screen and (min-width: 600px) {
+
+    #global {
+        width: 100%;
+    }
+
     #welcome {
+        display: flex;
+        width: 98vw;
+        height: 20vh;
+        justify-content: center;
         flex-direction: column;
-        margin-top: 200px;
-        font-size: 450%;
-        font-weight: bolder;
+        text-align: center;
+        align-items: center;
+        margin-top: 80px;
+        margin-left: 20px;
         z-index: 2;
     }
 
+    #title {
+        margin-top: 20vh;
+        font-size: 120%;
+    }
+
     h6 {
-        font-size: 30%;
-        margin-top: 20px;
+        margin-top: 10vh;
+        width: 10wv;
     }
 }
