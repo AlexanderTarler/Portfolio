@@ -3,17 +3,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 10vw;
+    margin-left: 13vw;
+    width: 82%;
     background-color: rgb(188, 188, 188);
 }
 
 .contact_info {
-    font-size: 150%;
+    font-size: 120%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #e9e6f1;
-    margin-top: 50vh;
+    margin-top: 10vh;
     display: flex;
     background-color: rgb(188, 188, 188);
 
@@ -25,10 +26,11 @@
     background-color: rgb(188, 188, 188);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
     .contact {
         font-size: 70%;
         margin-left: 0vw;
+        width: 100%;
     }
 
     .contact_info {
@@ -37,7 +39,7 @@
         justify-content: center;
         align-items: center;
         color: #e9e6f1;
-        margin-top: 0px;
+        margin-top: 13vh;
         display: flex;
         background-color: rgb(188, 188, 188);
 

@@ -3,7 +3,7 @@
 .logo {
     color: black;
     font-size: 150%;
-    margin-left: 13vw;
+    margin-left: 20vw;
     background-color: whitesmoke;
 }
 
@@ -117,6 +117,8 @@ nav {
         column-gap: 24px;
         align-items: center;
         text-shadow: black;
+        background-color: whitesmoke;
+
     }
 
     .nav__link::before {
