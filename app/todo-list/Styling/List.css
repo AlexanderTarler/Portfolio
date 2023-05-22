@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    text-decoration: underline;
+    background-color: rgb(188, 188, 188);
+
+    font-size: 220%;
+}
+
+#list {
+    display: flex;
+    margin-top: 20px;
+    background-color: rgb(188, 188, 188);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+#list::-webkit-scrollbar {
+    display: none;
+}
+
+
+#add-new-list-item-button {
+    min-width: 100px;
+    cursor: pointer;
+    margin-block: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+    color: #0374a4;
+    background-color: #fed361;
+    box-shadow: 3px 3px 3px #3b2d1f;
+}
+
+@media only screen and (max-width: 600px) {
+    #add-new-list-item-button {
+        font-weight: bold;
+        font-size: medium;
+    }
+}

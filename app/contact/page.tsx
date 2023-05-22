@@ -8,7 +8,6 @@ import { useGlobalContext } from '../Context/store';
 
 
 export default function Home() {
-    const { time, setTime } = useGlobalContext();
     return (
         <>
             <div className='contact'>

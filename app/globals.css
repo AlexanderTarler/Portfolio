@@ -36,6 +36,13 @@ h6 {
     width: 10wv;
 }
 
+#todo-list {
+    position: relative;
+    height: 100vh;
+    bottom: 20vh;
+    background-color: rgb(188, 188, 188);
+}
+
 @media only screen and (min-width: 600px) {
 
     #global {
