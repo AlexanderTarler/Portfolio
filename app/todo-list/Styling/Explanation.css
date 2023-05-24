@@ -1,10 +1,16 @@
 #explanation-text {
-    position: sticky;
-    text-align: center;
-    width: 23vw;
-    top: 40vh;
-    left: 2vw;
-    background-color: rgb(188, 188, 188);
-    font-weight: bolder;
-    z-index: 5;
+    visibility: hidden;
+}
+
+@media only screen and (min-width: 600px) {
+    #explanation-text {
+        position: sticky;
+        text-align: center;
+        width: 23vw;
+        top: 40vh;
+        left: 2vw;
+        background-color: rgb(188, 188, 188);
+        font-weight: bolder;
+        z-index: 5;
+    }
 }

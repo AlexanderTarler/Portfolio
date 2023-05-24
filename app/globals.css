@@ -37,9 +37,11 @@ h6 {
 }
 
 #todo-list {
-    position: relative;
-    height: 100vh;
-    bottom: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10vw;
+    margin-top: 2vh;
     background-color: rgb(188, 188, 188);
 }
 
@@ -72,5 +74,14 @@ h6 {
     h6 {
         margin-top: 10vh;
         width: 10wv;
+    }
+
+    #todo-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(188, 188, 188);
+        margin-right: 20vw;
+        margin-top: 0;
     }
 }
