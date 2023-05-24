@@ -14,7 +14,7 @@ export default function Portfolio() {
                 <Link className='project_item' href={'https://cv-creator-nine.vercel.app/'}>
                     Cv Creator
                 </Link>
-                <Link className='project_item' href={'http://localhost:3000/todo-list/'}>
+                <Link className='project_item' href={'https://tarler-portfolio.vercel.app/todo-list/'}>
                     Todo-list
                 </Link>
                 <h1 className='project_type'>Unity / C#</h1>
