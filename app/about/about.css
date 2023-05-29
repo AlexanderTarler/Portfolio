@@ -13,6 +13,11 @@ h2 {
     background-color: rgb(188, 188, 188);
 }
 
+h5 {
+    color: rgb(141, 0, 184);
+
+}
+
 @media only screen and (min-width: 600px) {
     .about {
         display: flex;

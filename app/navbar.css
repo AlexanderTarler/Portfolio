@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 .logo {
-    color: black;
+    color: rgb(141, 0, 184);
+
     font-size: 150%;
-    margin-left: 20vw;
+    margin-left: 20%;
     background-color: whitesmoke;
 }
 
@@ -11,7 +12,8 @@ a {
     text-decoration: none;
     font-size: 180%;
     background-color: transparent;
-    color: black;
+    color: rgb(141, 0, 184);
+
 }
 
 .nav-item {
@@ -78,7 +80,7 @@ nav {
 
     .logo {
         position: relative;
-        color: black;
+        color: rgb(141, 0, 184);
         font-size: 150%;
         margin-left: 0vw;
         background-color: whitesmoke;
@@ -89,7 +91,7 @@ nav {
         text-decoration: none;
         font-size: 180%;
         background-color: transparent;
-        color: black;
+        color: rgb(141, 0, 184);
     }
 
     nav {
