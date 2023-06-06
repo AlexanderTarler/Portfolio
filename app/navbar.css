@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 .logo {
-    color: rgb(141, 0, 184);
+    color: rgb(119, 85, 149);
     font-size: 5svh;
-    background-color: whitesmoke;
+    background: transparent;
     text-align: center;
 }
 
 a {
     text-decoration: none;
     font-size: 180%;
-    background-color: transparent;
-    color: rgb(141, 0, 184);
+    background: transparent;
+    color: rgb(119, 85, 149);
 
 }
 
 .nav-item {
     margin-inline: 10px;
-    background-color: whitesmoke;
+    background: transparent;
     margin-top: 5svh;
     height: 3vh;
 }
@@ -36,7 +36,7 @@ nav {
     margin-bottom: 10px;
     justify-content: center;
     align-items: center;
-    background: whitesmoke;
+    background: transparent;
     z-index: 300;
 }
 
@@ -53,7 +53,7 @@ nav {
     font-size: 75%;
     font-weight: bold;
     height: 3vh;
-    background-color: whitesmoke;
+    background: transparent;
 
 }
 
@@ -62,7 +62,7 @@ nav {
     position: relative;
     transition: all 0.2s;
     margin-inline: 20px;
-    background-color: whitesmoke;
+    background: transparent;
 
 }
 
@@ -75,7 +75,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
+    background: transparent;
 
 }
 
@@ -83,18 +83,16 @@ nav {
 
     .logo {
         position: relative;
-        color: rgb(141, 0, 184);
+        color: rgb(119, 85, 149);
         font-size: 150%;
         margin-left: 0vw;
-        background-color: whitesmoke;
     }
 
     a {
         position: relative;
         text-decoration: none;
         font-size: 180%;
-        background-color: transparent;
-        color: rgb(141, 0, 184);
+        color: rgb(119, 85, 149);
     }
 
     nav {
@@ -108,11 +106,6 @@ nav {
 
     .nav__item {
         margin-inline: 10px;
-        background-color: whitesmoke;
-    }
-
-    div {
-        background-color: whitesmoke;
     }
 
     .nav__menu-list {
@@ -123,7 +116,6 @@ nav {
         column-gap: 24px;
         align-items: center;
         text-shadow: black;
-        background-color: whitesmoke;
         justify-content: space-between;
 
 

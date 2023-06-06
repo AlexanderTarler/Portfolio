@@ -11,7 +11,7 @@
 
 h2 {
     margin-bottom: 20px;
-    background-color: rgb(188, 188, 188);
+    background-color: rgb(226, 224, 214);
 }
 
 h5 {
@@ -28,15 +28,15 @@ h5 {
         flex-direction: column;
         margin-left: 0vw;
         margin-block: 0svh;
-        background-color: rgb(188, 188, 188);
+        background-color: rgb(226, 224, 214);
     }
 
     #about-text-box {
-        background-color: rgb(188, 188, 188);
+        background-color: rgb(226, 224, 214);
     }
 
     h2 {
-        background-color: rgb(188, 188, 188);
+        background-color: rgb(226, 224, 214);
         margin-bottom: 20;
     }
 

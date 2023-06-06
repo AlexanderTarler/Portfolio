@@ -9,7 +9,7 @@
 
 #global {
     width: 110%;
-    background-color: rgb(188, 188, 188);
+    background-color: rgb(226, 224, 214);
 }
 
 #welcome {
@@ -41,7 +41,7 @@ h6 {
     align-items: center;
     margin-right: 10vw;
     margin-top: 2vh;
-    background-color: rgb(188, 188, 188);
+    background-color: rgb(226, 224, 214);
 }
 
 @media only screen and (min-width: 600px) {
@@ -65,21 +65,32 @@ h6 {
 
     #title {
         margin-top: 20vh;
+        margin-right: 20vw;
         font-size: 120%;
-        background-color: rgb(188, 188, 188);
-
+        background-color: rgb(119, 85, 149);
+        border: 5px solid rgb(119, 85, 149);
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px 2px;
+        color: rgb(19, 19, 19);
     }
 
     h6 {
         margin-top: 10vh;
         width: 10wv;
+        background-color: rgb(129, 140, 207);
+        border: 5px solid rgb(129, 140, 207);
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px 2px;
+        margin-left: 20vw;
+
+        color: rgb(19, 19, 19);
     }
 
     #todo-list {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgb(188, 188, 188);
+        background-color: rgb(226, 224, 214);
         margin-right: 20vw;
         margin-top: 0;
     }
