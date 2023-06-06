@@ -4,8 +4,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-block: 35svh;
+    margin-block: 25svh;
     text-align: center;
+
 }
 
 h2 {
@@ -15,7 +16,6 @@ h2 {
 
 h5 {
     color: rgb(141, 0, 184);
-
 }
 
 @media only screen and (min-width: 600px) {

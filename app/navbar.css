@@ -10,7 +10,7 @@
 a {
     text-decoration: none;
     font-size: 180%;
-    background-color: whitesmoke;
+    background-color: transparent;
     color: rgb(141, 0, 184);
 
 }
@@ -32,7 +32,7 @@ nav {
     display: flex;
     height: 20svh;
     padding: 10px;
-    width: 12 0svw;
+    /* width: 110svw; */
     margin-bottom: 10px;
     justify-content: center;
     align-items: center;
