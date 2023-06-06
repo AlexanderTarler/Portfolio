@@ -1,11 +1,11 @@
 .about {
     display: flex;
-    height: 60vh;
+    height: 60svh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 100px;
-    margin-left: 12vw;
+    margin-block: 35svh;
+    text-align: center;
 }
 
 h2 {
@@ -27,6 +27,7 @@ h5 {
         justify-content: center;
         flex-direction: column;
         margin-left: 0vw;
+        margin-block: 0svh;
         background-color: rgb(188, 188, 188);
     }
 

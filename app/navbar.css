@@ -2,7 +2,7 @@
 
 .logo {
     color: rgb(141, 0, 184);
-    font-size: 4svh;
+    font-size: 5svh;
     background-color: whitesmoke;
     text-align: center;
 }
@@ -10,16 +10,16 @@
 a {
     text-decoration: none;
     font-size: 180%;
-    background-color: transparent;
+    background-color: whitesmoke;
     color: rgb(141, 0, 184);
 
 }
 
 .nav-item {
     margin-inline: 10px;
-    background-color: transparent;
+    background-color: whitesmoke;
+    margin-top: 5svh;
     height: 3vh;
-
 }
 
 header {
@@ -30,11 +30,11 @@ header {
 
 nav {
     display: flex;
-    height: 10vh;
+    height: 20svh;
     padding: 10px;
-    width: 110vw;
+    width: 12 0svw;
     margin-bottom: 10px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background: whitesmoke;
     z-index: 300;
@@ -45,7 +45,6 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-left: 22vw;
     position: fixed;
     top: 12vh;
     width: 60vw;
@@ -54,7 +53,8 @@ nav {
     font-size: 75%;
     font-weight: bold;
     height: 3vh;
-    background-color: transparent;
+    background-color: whitesmoke;
+
 }
 
 .nav__link {
@@ -62,6 +62,8 @@ nav {
     position: relative;
     transition: all 0.2s;
     margin-inline: 20px;
+    background-color: whitesmoke;
+
 }
 
 .nav__link:hover {
@@ -73,6 +75,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: whitesmoke;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -95,6 +99,7 @@ nav {
 
     nav {
         width: 100%;
+        flex-direction: column;
     }
 
     .nav__menu-bar {
@@ -119,6 +124,8 @@ nav {
         align-items: center;
         text-shadow: black;
         background-color: whitesmoke;
+        justify-content: space-between;
+
 
     }
 
