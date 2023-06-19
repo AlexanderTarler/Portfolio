@@ -10,6 +10,8 @@
 
 .project_type {
     text-decoration: underline;
+    color: rgb(220, 222, 221);
+
 }
 
 
@@ -18,7 +20,9 @@
     font-weight: bold;
     margin-block: 30px;
     text-decoration: none;
-    background-color: rgb(226, 224, 214);
+    background-color: transparent;
+    color: rgb(220, 222, 221);
+
 }
 
 @media only screen and (min-width: 600px) {

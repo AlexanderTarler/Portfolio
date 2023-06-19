@@ -4,12 +4,12 @@
     outline: none;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(220, 222, 221);
 }
 
 #global {
     width: 110%;
-    background-color: rgb(226, 224, 214);
+    background-color: rgb(36, 36, 36);
 }
 
 #welcome {
@@ -48,42 +48,37 @@ h6 {
 
     #global {
         width: 100%;
+
     }
 
     #welcome {
+        position: relative;
+        left: 34vw;
         display: flex;
-        width: 98vw;
-        height: 20vh;
-        justify-content: center;
+        width: 28vw;
+        height: 40vh;
         flex-direction: column;
         text-align: center;
         align-items: center;
-        margin-top: 80px;
+        justify-content: center;
+
+        margin-top: 50px;
         margin-left: 20px;
+        background-color: rgb(27, 27, 27);
+        border: 5px solid rgb(27, 27, 27);
         z-index: 2;
     }
 
     #title {
-        margin-top: 20vh;
-        margin-right: 20vw;
+        margin-top: 0vh;
+
         font-size: 120%;
-        background-color: rgb(119, 85, 149);
-        border: 5px solid rgb(119, 85, 149);
-        border-radius: 10px;
-        box-shadow: 2px 2px 5px 2px;
-        color: rgb(19, 19, 19);
     }
 
     h6 {
-        margin-top: 10vh;
-        width: 10wv;
-        background-color: rgb(129, 140, 207);
-        border: 5px solid rgb(129, 140, 207);
-        border-radius: 10px;
-        box-shadow: 2px 2px 5px 2px;
-        margin-left: 20vw;
+        margin-top: 5vh;
 
-        color: rgb(19, 19, 19);
+        color: rgb(220, 222, 221);
     }
 
     #todo-list {
