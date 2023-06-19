@@ -20,6 +20,7 @@ export default function Home() {
                     </Link>
                 </div>
                 <div id="tech-stacks">
+                    <h2>Skills:</h2>
                     <h3>JavaScript</h3>
                     <h3>TypeScript</h3>
                     <h3>React</h3>

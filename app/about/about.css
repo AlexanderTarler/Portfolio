@@ -4,15 +4,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-block: 25svh;
     text-align: center;
-
-
+    margin-top: 42vh;
 }
 
 h2 {
-    margin-bottom: 20px;
-    background-color: rgb(220, 222, 221);
+    background-color: rgb(27, 27, 27);
+}
+
+#tech-stacks {
+    margin-top: 10vh;
 }
 
 
