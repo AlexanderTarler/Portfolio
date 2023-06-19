@@ -20,9 +20,16 @@ export default function Home() {
                     </Link>
                 </div>
                 <div id="tech-stacks">
+                    <h3>JavaScript</h3>
+                    <h3>TypeScript</h3>
                     <h3>React</h3>
                     <h3>Next.js</h3>
                     <h3>Node.js</h3>
+                    <h3>MongoDB</h3>
+                    <h3>Express</h3>
+                    <h3>PostgreSQL</h3>
+                    <h3>GraphQL</h3>
+                    <h3>Cypress</h3>
                 </div>
             </main>
         </>
