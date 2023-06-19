@@ -19,6 +19,11 @@ export default function Home() {
                         <h5>Check out my portfolio to see a few of my projects!</h5>
                     </Link>
                 </div>
+                <div id="tech-stacks">
+                    <h3>React</h3>
+                    <h3>Next.js</h3>
+                    <h3>Node.js</h3>
+                </div>
             </main>
         </>
     )
