@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: rgb(36, 36, 36);
 }
 
 .contact_info {
@@ -15,13 +14,11 @@
     color: #e9e6f1;
     margin-top: 10vh;
     display: flex;
-    background-color: rgb(36, 36, 36);
 
 }
 
 .contact_option {
     margin-top: 50px;
-    background-color: rgb(36, 36, 36);
     color: #e9e6f1;
 
 }
@@ -41,7 +38,6 @@
         color: rgb(220, 222, 221);
         margin-top: 13vh;
         display: flex;
-        background-color: rgb(36, 36, 36);
 
     }
 }

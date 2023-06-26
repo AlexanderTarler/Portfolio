@@ -8,9 +8,7 @@
     margin-top: 42vh;
 }
 
-h2 {
-    background-color: rgb(27, 27, 27);
-}
+h2 {}
 
 #tech-stacks {
     margin-top: 10vh;
@@ -29,11 +27,9 @@ h2 {
         flex-direction: column;
         margin-left: 0vw;
         margin-block: 0svh;
-        background-color: rgb(36, 36, 36);
     }
 
     h2 {
-        background-color: rgb(27, 27, 27);
         margin-bottom: 20;
     }
 
@@ -43,18 +39,12 @@ h2 {
         text-align: center;
         border: none;
         width: 50vw;
-        background-color: rgb(27, 27, 27);
-        border: 5px solid rgb(27, 27, 27);
         margin-right: 500px;
     }
 
     #tech-stacks {
         position: relative;
-        bottom: 50vh;
+        bottom: 45vh;
         left: 15vw;
-
-
-        background-color: rgb(27, 27, 27);
-        border: 5px solid rgb(27, 27, 27);
     }
 }
