@@ -8,10 +8,15 @@
     margin-top: 42vh;
 }
 
-h2 {}
+#about-text-box {
+    position: relative;
+    top: 10vh;
+    border: none;
+}
+
 
 #tech-stacks {
-    margin-top: 10vh;
+    margin-top: 20vh;
 }
 
 

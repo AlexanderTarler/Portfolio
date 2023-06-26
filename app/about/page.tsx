@@ -13,7 +13,7 @@ export default function Home() {
                 <div id="about-text-box">
                     <h2>I&apos;m a fullstack developer with a passion for building innovative web applications with a great user experience.</h2>
                     <h2>I have developed websites, applications and games, and I&apos;m excited to see what my next project will be.</h2>
-                    <h2>I have a lot of experience using React, Next.js, MongoDb and Node.js as well as other tech stacks.</h2>
+                    <h2>I have a lot of experience using React, Next.js, MongoDB and Node.js as well as other tech stacks.</h2>
                     <h2>I am constantly looking to learn and grow as a developer.</h2>
                     <Link href={"/portfolio"}>
                         <h5>Check out my portfolio to see a few of my projects!</h5>

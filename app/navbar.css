@@ -12,13 +12,13 @@ a {
     font-size: 180%;
     background: transparent;
     color: rgb(220, 222, 221);
-
 }
 
 .nav-item {
     margin-inline: 10px;
     background: transparent;
     margin-top: 5svh;
+    margin-bottom: 2svh;
     height: 3vh;
 }
 
