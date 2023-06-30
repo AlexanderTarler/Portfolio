@@ -9,6 +9,8 @@ Getting Started -
 
 Clone the repo, install the dependencies ("npm install") and run the project using "npm run dev".
 
+Open up the project, change the information you want to change, then watch it be updated in real time :)
+
 
 Work to be done -
 
