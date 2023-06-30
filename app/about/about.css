@@ -17,8 +17,8 @@
 
 #tech-stacks {
     margin-top: 20vh;
+    padding-bottom: 5vh;
 }
-
 
 @media only screen and (min-width: 600px) {
     .about {
@@ -41,9 +41,8 @@
     #about-text-box {
         position: relative;
         top: 10vh;
-        text-align: center;
         border: none;
-        width: 50vw;
+        width: 55vw;
         margin-right: 500px;
     }
 
@@ -51,5 +50,10 @@
         position: relative;
         bottom: 45vh;
         left: 15vw;
+    }
+
+    #tech-stacks {
+        margin-top: 10vh;
+        padding-bottom: 0vh;
     }
 }

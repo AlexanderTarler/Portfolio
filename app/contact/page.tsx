@@ -2,12 +2,11 @@
 import '../globals.css';
 import Link from 'next/link';
 import './contact.css';
-import { useGlobalContext } from '../Context/store';
 
 
 
 
-export default function Home() {
+export default function Contact() {
     return (
         <>
             <div className='contact'>
