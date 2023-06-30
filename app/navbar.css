@@ -9,7 +9,7 @@
 
 a {
     text-decoration: none;
-    font-size: 180%;
+    font-size: 130%;
     background: transparent;
     color: rgb(220, 222, 221);
 }
@@ -24,7 +24,7 @@ a {
 
 header {
     position: sticky;
-    z-index: 30;
+    z-index: 300;
     top: 0;
 }
 

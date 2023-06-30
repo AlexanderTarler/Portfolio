@@ -10,13 +10,14 @@
 
 #about-text-box {
     position: relative;
-    top: 10vh;
+    top: 30vh;
     border: none;
 }
 
 
 #tech-stacks {
-    margin-top: 20vh;
+    position: relative;
+    top: 40vh;
     padding-bottom: 5vh;
 }
 
@@ -40,20 +41,18 @@
 
     #about-text-box {
         position: relative;
-        top: 10vh;
+        top: 28vh;
         border: none;
         width: 55vw;
-        margin-right: 500px;
+        right: 20vw;
     }
 
     #tech-stacks {
         position: relative;
         bottom: 45vh;
         left: 15vw;
-    }
-
-    #tech-stacks {
-        margin-top: 10vh;
+        margin-top: 23vh;
         padding-bottom: 0vh;
     }
+
 }

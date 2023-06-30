@@ -23,6 +23,10 @@ export default function Current() {
                         <h3>Untitled Horror Game</h3>
                         I am creating a horror game where the goal is to survive being hunted. The player must find a way to evade the invader while escaping the area.
                     </div>
+                    <div className='project-text'>
+                        <h3>Untitled Horror Game</h3>
+                        I am creating a horror game where the goal is to survive being hunted. The player must find a way to evade the invader while escaping the area.
+                    </div>
                 </div>
             </main>
         </>

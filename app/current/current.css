@@ -2,13 +2,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 
-.project-type {
-    position: fixed;
-    top: 20vh;
-}
+.project-type {}
 
 #coding {
     display: flex;
@@ -16,10 +14,9 @@ main {
     justify-content: center;
     flex-direction: column;
 
-    position: static;
     margin-inline: 2vw;
 
-    width: 40vw;
+    width: 100vw;
 }
 
 
@@ -29,10 +26,9 @@ main {
     justify-content: center;
     flex-direction: column;
 
-    position: static;
 
-    width: 40vw;
-    margin-inline: 2vw;
+    width: 100vw;
+    margin-block: 10vh;
 
 }
 
@@ -46,8 +42,64 @@ h3 {
     flex-direction: column;
 
     font-size: 120%;
-    margin-top: 10vh;
+    margin-top: 5vh;
     padding: 5px;
     backdrop-filter: blur(4px);
-    height: 40vh;
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+
+    .project-type {
+        position: fixed;
+        top: 22vh;
+    }
+
+    #coding {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        margin-inline: 2vw;
+
+        width: 40vw;
+    }
+
+
+    #game-development {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        width: 40vw;
+        margin-inline: 2vw;
+        margin-block: 0vh;
+
+
+    }
+
+    h3 {
+        padding-bottom: 2vh;
+    }
+
+    .project-text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        font-size: 120%;
+        margin-top: 10vh;
+        padding: 5px;
+        backdrop-filter: blur(4px);
+    }
+
 }
