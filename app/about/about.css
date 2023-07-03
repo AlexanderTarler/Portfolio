@@ -30,29 +30,24 @@
         width: 100vw;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
         margin-left: 0vw;
         margin-block: 0svh;
     }
 
     h2 {
-        margin-bottom: 20;
+        margin-bottom: 10px;
     }
 
     #about-text-box {
-        position: relative;
-        top: 28vh;
+        position: initial;
         border: none;
         width: 55vw;
-        right: 20vw;
     }
 
     #tech-stacks {
-        position: relative;
-        bottom: 45vh;
-        left: 15vw;
-        margin-top: 23vh;
-        padding-bottom: 0vh;
+        position: initial;
+        margin-left: 20vw;
     }
 
 }
