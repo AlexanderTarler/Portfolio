@@ -99,7 +99,26 @@ h3 {
         font-size: 120%;
         margin-top: 10vh;
         padding: 5px;
-        backdrop-filter: blur(4px);
+        /* background: linear-gradient(-45deg, #000000, #1d1d1d, #3e3e3e, #565656);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite; */
+        background-color: rgb(27, 25, 27);
+        border: 3px solid rgb(57, 53, 61);
+    }
+
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
     }
 
 }
